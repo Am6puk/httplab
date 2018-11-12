@@ -1,7 +1,7 @@
 name: httplab
 version: git
 summary: An interactive web server.
-description: |
+description: >
   HTTPLab let you inspect HTTP requests and forge responses.
  
 grade: devel
@@ -10,6 +10,7 @@ confinement: devmode
 parts:
   httplab:
     source: .
+    source-type: git
     plugin: go
     go-importpath: github.com/gchaincl/httplab
  
