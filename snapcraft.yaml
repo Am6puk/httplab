@@ -9,10 +9,10 @@ confinement: devmode
  
 parts:
   httplab:
-    source: .
-    source-type: git
     plugin: go
     go-importpath: github.com/gchaincl/httplab
+    source: .
+    source-type: git
  
 apps:
   httplab:
